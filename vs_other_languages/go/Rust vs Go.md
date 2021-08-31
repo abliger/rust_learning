@@ -16,6 +16,9 @@ Rust and Go have a lot in common, which is one reason you often hear them mentio
 >Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
 >—Golang.org
 
+## Memory safety
+
+Both Go and Rust belong to the group of modern programming languages whose priority is memory safety. It's become clear over many decades of using older languages such as C and C++ that one of the biggest causes of bugs and security vulnerabilities is accessing memory unsafely or incorrectly. Rust and Go deal with this problem in different ways, but both aim to be smarter and safer than other languages about managing memory, and to help you write correct and performant programs.
 // todo
 # Rust vs Go
  Rust 和 Go 哪个更好？ 你应该选择何种语言作为你的下一门语言，且为什么选择它？Rust 和 Go 怎样在 性能、 简易性、安全性、特性、规模、并发性等方面比较？他们有什么共同点和根本的不同？让我们从《 For the Love of Go》丛书的作者对 Rust 和 Golang 的友好而公正的比较中找出答案。
@@ -34,3 +37,6 @@ Rust 和 Go 有很多共同点，这就是你经常听到他们一起提到的�
 >—Gints Dreimanis
 >Go 是一种开源编程语言，可以轻松构建简单、可靠和高效的软件。
 >—Golang.org
+
+## 内存安全
+Go 和 Rust 都属于优先考虑内存安全的现代编程语言组。在使用 C 和 C++ 等旧语言的几十年中，很明显，错误和安全漏洞的最大原因之一是不安全或不正确地访问内存。Rust 和 Go 以不同的方式处理这个问题，但两者都旨在在管理内存方面比其他语言更智能、更安全，并帮助您编写正确和高性能的程序。
